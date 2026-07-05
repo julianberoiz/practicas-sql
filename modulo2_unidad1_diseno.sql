@@ -35,5 +35,5 @@ CREATE TABLE productos (
 
     -- BOOLEAN indica si el producto está activo o no
     -- (En SQL Server podría reemplazarse por BIT)
-    esta_activo BOOLEAN
+    esta_activo BIT
 );
