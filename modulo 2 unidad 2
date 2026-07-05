@@ -33,7 +33,7 @@ CREATE TABLE inventario (
     fecha_ingreso DATE,
 
     -- Estado del producto: 1 activo / 0 descontinuado
-    activo TINYINT
+    activo INT
 );
 
 -- ── SECCIÓN DML ──────────────────────────
